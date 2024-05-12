@@ -1,0 +1,39 @@
+#VRML_SIM R2023a utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/floors/protos/RectangleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/robots/gctronic/e-puck/protos/E-puck.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/appearances/protos/Parquetry.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.5773502691896258 0.5773502691896258 0.5773502691896258 2.0944
+  position 8.048827376722412e-06 8.048850137130121e-06 3.7423902946459946
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  rotation 0 1 0 0
+  floorSize 2 2
+  floorAppearance Parquetry {
+    type "light strip"
+  }
+}
+E-puck {
+  hidden linearVelocity_0 0.055414014182722945 0.008908078097739107 3.3271324326688847e-08
+  hidden angularVelocity_0 -0.0020155095434693086 0.012586013352876792 0.09346443495839848
+  hidden translation_1 0 0.025999999999999995 0.02
+  hidden rotation_1 0 1 0 4.613162231842299
+  hidden linearVelocity_1 0.05307753785411189 0.008532770867470065 -5.104772648943886e-09
+  hidden angularVelocity_1 -0.42485531663550263 2.6424552944552206 0.09521712528597831
+  hidden translation_2 0 -0.025999999999999995 0.02
+  hidden rotation_2 0 1 0 5.069522479918758
+  hidden linearVelocity_2 0.057876405891240414 0.009304105964872538 -7.113067912082367e-10
+  hidden angularVelocity_2 -0.4669684040337545 2.9051171077222953 0.09549419816295367
+  translation 0.09639535066637021 0.0077776374502918745 -6.431611817654496e-05
+  rotation 0.0002341757460606922 0.006133567510054228 0.999981162078226 0.1611543102166774
+}
